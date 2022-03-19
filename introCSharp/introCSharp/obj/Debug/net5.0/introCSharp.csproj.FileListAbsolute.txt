@@ -1,0 +1,16 @@
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\introCSharp\introCSharp\bin\Debug\net5.0\introCSharp.exe
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\introCSharp\introCSharp\bin\Debug\net5.0\introCSharp.deps.json
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\introCSharp\introCSharp\bin\Debug\net5.0\introCSharp.runtimeconfig.json
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\introCSharp\introCSharp\bin\Debug\net5.0\introCSharp.runtimeconfig.dev.json
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\introCSharp\introCSharp\bin\Debug\net5.0\introCSharp.dll
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\introCSharp\introCSharp\bin\Debug\net5.0\ref\introCSharp.dll
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\introCSharp\introCSharp\bin\Debug\net5.0\introCSharp.pdb
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\introCSharp\introCSharp\obj\Debug\net5.0\introCSharp.csproj.AssemblyReference.cache
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\introCSharp\introCSharp\obj\Debug\net5.0\introCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\introCSharp\introCSharp\obj\Debug\net5.0\introCSharp.AssemblyInfoInputs.cache
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\introCSharp\introCSharp\obj\Debug\net5.0\introCSharp.AssemblyInfo.cs
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\introCSharp\introCSharp\obj\Debug\net5.0\introCSharp.csproj.CoreCompileInputs.cache
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\introCSharp\introCSharp\obj\Debug\net5.0\introCSharp.dll
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\introCSharp\introCSharp\obj\Debug\net5.0\ref\introCSharp.dll
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\introCSharp\introCSharp\obj\Debug\net5.0\introCSharp.pdb
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\introCSharp\introCSharp\obj\Debug\net5.0\introCSharp.genruntimeconfig.cache
