@@ -6,6 +6,22 @@ namespace Odev2
     {
         static void Main(string[] args)
         {
+            //Mart 19 da verilen ödev
+            //ik kenarlarının uzunluğunu alan ve hipotenüsü hesaplayan programı yazın.
+
+            double c;
+
+            Console.Write("1. Kenarı Giriniz :");
+            int a = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("2. Kenarı Giriniz :");
+            int b = Convert.ToInt32(Console.ReadLine());
+
+            c = Math.Sqrt((a * a) + (b * b));
+            Console.WriteLine("Hipotenüs : " + c);
+
+
+
             //a - Kullanıcı sayı girecek.UYgulama bu sayının asal olup olmadığını söyleyecek.
             Console.WriteLine("Bir sayı giriniz");
             int sayi = Convert.ToInt32(Console.ReadLine());
