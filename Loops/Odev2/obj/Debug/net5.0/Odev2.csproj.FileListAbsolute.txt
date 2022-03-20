@@ -1,0 +1,16 @@
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\Loops\Odev2\bin\Debug\net5.0\Odev2.exe
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\Loops\Odev2\bin\Debug\net5.0\Odev2.deps.json
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\Loops\Odev2\bin\Debug\net5.0\Odev2.runtimeconfig.json
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\Loops\Odev2\bin\Debug\net5.0\Odev2.runtimeconfig.dev.json
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\Loops\Odev2\bin\Debug\net5.0\Odev2.dll
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\Loops\Odev2\bin\Debug\net5.0\ref\Odev2.dll
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\Loops\Odev2\bin\Debug\net5.0\Odev2.pdb
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\Loops\Odev2\obj\Debug\net5.0\Odev2.csproj.AssemblyReference.cache
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\Loops\Odev2\obj\Debug\net5.0\Odev2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\Loops\Odev2\obj\Debug\net5.0\Odev2.AssemblyInfoInputs.cache
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\Loops\Odev2\obj\Debug\net5.0\Odev2.AssemblyInfo.cs
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\Loops\Odev2\obj\Debug\net5.0\Odev2.csproj.CoreCompileInputs.cache
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\Loops\Odev2\obj\Debug\net5.0\Odev2.dll
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\Loops\Odev2\obj\Debug\net5.0\ref\Odev2.dll
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\Loops\Odev2\obj\Debug\net5.0\Odev2.pdb
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\Loops\Odev2\obj\Debug\net5.0\Odev2.genruntimeconfig.cache
