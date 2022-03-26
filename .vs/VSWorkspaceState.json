@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\switchCase",
+    "\\switchCase\\switchCase"
   ],
+  "SelectedNode": "\\switchCase\\switchCase\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

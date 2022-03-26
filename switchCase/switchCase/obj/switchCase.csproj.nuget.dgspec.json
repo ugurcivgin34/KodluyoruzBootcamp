@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ugur\\source\\repos\\KodluyoruzBootcamp\\switchCase\\switchCase\\switchCase.csproj": {}
+    "C:\\Users\\ugur\\Source\\Repos\\KodluyoruzBootcamp\\switchCase\\switchCase\\switchCase.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ugur\\source\\repos\\KodluyoruzBootcamp\\switchCase\\switchCase\\switchCase.csproj": {
+    "C:\\Users\\ugur\\Source\\Repos\\KodluyoruzBootcamp\\switchCase\\switchCase\\switchCase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ugur\\source\\repos\\KodluyoruzBootcamp\\switchCase\\switchCase\\switchCase.csproj",
+        "projectUniqueName": "C:\\Users\\ugur\\Source\\Repos\\KodluyoruzBootcamp\\switchCase\\switchCase\\switchCase.csproj",
         "projectName": "switchCase",
-        "projectPath": "C:\\Users\\ugur\\source\\repos\\KodluyoruzBootcamp\\switchCase\\switchCase\\switchCase.csproj",
+        "projectPath": "C:\\Users\\ugur\\Source\\Repos\\KodluyoruzBootcamp\\switchCase\\switchCase\\switchCase.csproj",
         "packagesPath": "C:\\Users\\ugur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ugur\\source\\repos\\KodluyoruzBootcamp\\switchCase\\switchCase\\obj\\",
+        "outputPath": "C:\\Users\\ugur\\Source\\Repos\\KodluyoruzBootcamp\\switchCase\\switchCase\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
