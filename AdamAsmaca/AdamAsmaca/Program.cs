@@ -18,6 +18,7 @@ namespace AdamAsmaca
              *    Bilirse oyunu bitir
              *    Bilemezse 3. adıma dön
              */
+              
 
             bool isGameOver = false;
             while (!isGameOver)
