@@ -19,73 +19,62 @@ namespace AdamAsmaca
              *    Bilemezse 3. adıma dön
              */
 
-            int right = 4;
             bool isGameOver = false;
-            string letter = "";
-            string prediction = "";
             string[] words = { "ayna", "masa", "tarantula", "endoplazmikretikulum" };
-            string selectedWord = ChooseWord(words);
-            string puzzle = ReplaceToStar(selectedWord);
-            while (!isGameOver )
+            while (!isGameOver)
             {
-                Console.WriteLine(puzzle);
-                letter =EnterLetters();
-               
-                bool isLetterExistInWord = CheckLetterInWord(selectedWord, letter);
-                if (isLetterExistInWord)
-                {
-                    puzzle = ReplaceStarToLetter(selectedWord, puzzle, letter);
-                    
-                }
-                else
-                {
-                    right--;
-                    Console.WriteLine($"Harf bilemediniz .{right} hakkınız kaldı");
-                }
-                Console.WriteLine(puzzle);
-                Console.Write("Kelimeyi tahmin ediniz ");
-                prediction = Console.ReadLine();
-                if (prediction.ToUpper() == selectedWord.ToUpper())
-                {
-                    Console.WriteLine("Doğru Tahmin Ettiniz");
-                    isGameOver = true;
-                }
 
-                else
-                {
-                    Console.WriteLine("Yanlış Tahmin");
-                }
-                 
-                
-                if (right == 0)
-                {
-                    Console.WriteLine("Hakkınız doldu.Oyunu kaybettiniz");
-                    isGameOver = true;
-                }
+                string selectedWord = chooseWord(words);
+                string puzzle = replaceToStar(selectedWord);
 
+                Console.WriteLine(puzzle);
+                bool isWordFinding = false;
+                while (!isWordFinding)
+                {
+                    Console.WriteLine("Bir harf giriniz");
+                    string letter = Console.ReadLine();
+                    bool isLetterExistInWord = checkLetterInWord(selectedWord, letter);
+                    if (isLetterExistInWord)
+                    {
+                        puzzle = replaceStarToLetter(selectedWord, puzzle, letter);
+                        Console.WriteLine(puzzle);
+                    }
+
+                    Console.WriteLine("Kelimeyi tahmin etmek ister misin? (E/H)");
+                    string answerForGuess = Console.ReadLine();
+                    if (answerForGuess.ToUpper() == "E")
+                    {
+                        Console.WriteLine("Tahmininizi giriniz:");
+                        string guess = Console.ReadLine();
+                        isWordFinding = compareGuessAndSelectedWord(guess, selectedWord);
+
+                    }
+                }
+                //Console.WriteLine(puzzle);
+                Console.WriteLine("Oyuna devam mı (E/H)?");
+                isGameOver = Console.ReadLine().ToUpper() == "H";
             }
         }
 
-        /// <summary>
-        /// Kullanıcının harf girmesini sağlayan metod
-        /// </summary>
-        /// <returns></returns>
-        private static string EnterLetters()
+        private static bool compareGuessAndSelectedWord(string guess, string selectedWord)
         {
-            string letter = String.Empty;
-            Console.Write("Bir harf giriniz : ");
-            letter = Console.ReadLine();
-            return letter;
+            return guess == selectedWord;
         }
 
-        static string ChooseWord(string[] words)
+
+        /// <summary>
+        /// Belirli kelimelerin içinden rastgele kelime seçer
+        /// </summary>
+        /// <param name="words">kelimelerin bulunduğu koleksiyon</param>
+        /// <returns></returns>
+        static string chooseWord(string[] words)
         {
             Random random = new Random();
             string word = words[random.Next(0, words.Length)];
             return word;
         }
 
-        private static string ReplaceToStar(string selectedWord)
+        private static string replaceToStar(string selectedWord)
         {
             string puzzleResult = string.Empty;
             for (int i = 0; i < selectedWord.Length; i++)
@@ -101,12 +90,12 @@ namespace AdamAsmaca
         /// <param name="selectedWord">Kaynak kelime</param>
         /// <param name="letter">Aranacak harf</param>
         /// <returns></returns>
-        private static bool CheckLetterInWord(string selectedWord, string letter)
+        private static bool checkLetterInWord(string selectedWord, string letter)
         {
             return selectedWord.Contains(letter);
         }
 
-        private static string ReplaceStarToLetter(string selectedWord, string puzzle, string letter)
+        private static string replaceStarToLetter(string selectedWord, string puzzle, string letter)
         {
             int startIndex = 0;
             char[] puzzleStars = puzzle.ToCharArray();
