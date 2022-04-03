@@ -20,6 +20,7 @@ namespace AdamAsmaca
              */
 
             bool isGameOver = false;
+            int hak = 4;
             string[] words = { "ayna", "masa", "tarantula", "endoplazmikretikulum" };
             while (!isGameOver)
             {
@@ -29,7 +30,7 @@ namespace AdamAsmaca
 
                 Console.WriteLine(puzzle);
                 bool isWordFinding = false;
-                while (!isWordFinding)
+                while (!isWordFinding )
                 {
                     Console.WriteLine("Bir harf giriniz");
                     string letter = Console.ReadLine();
@@ -39,7 +40,21 @@ namespace AdamAsmaca
                         puzzle = replaceStarToLetter(selectedWord, puzzle, letter);
                         Console.WriteLine(puzzle);
                     }
-
+                    else
+                    {
+                        hak--;
+                        Console.WriteLine($"Yanlış harf tahmini yaptınız.{hak} hakkınız kaldı");
+                        
+                       
+                    }
+                    if (hak==0)
+                    {
+                        isWordFinding = true;
+                        isGameOver = true;
+                        break;
+                    }
+                   
+                   
                     Console.WriteLine("Kelimeyi tahmin etmek ister misin? (E/H)");
                     string answerForGuess = Console.ReadLine();
                     if (answerForGuess.ToUpper() == "E")
@@ -49,6 +64,10 @@ namespace AdamAsmaca
                         isWordFinding = compareGuessAndSelectedWord(guess, selectedWord);
 
                     }
+                }
+                if (isGameOver)
+                {
+                    break;
                 }
                 //Console.WriteLine(puzzle);
                 Console.WriteLine("Oyuna devam mı (E/H)?");
