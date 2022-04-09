@@ -1,0 +1,16 @@
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\OOPIntro\DiceGame\DiceGame\bin\Debug\net5.0\DiceGame.exe
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\OOPIntro\DiceGame\DiceGame\bin\Debug\net5.0\DiceGame.deps.json
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\OOPIntro\DiceGame\DiceGame\bin\Debug\net5.0\DiceGame.runtimeconfig.json
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\OOPIntro\DiceGame\DiceGame\bin\Debug\net5.0\DiceGame.runtimeconfig.dev.json
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\OOPIntro\DiceGame\DiceGame\bin\Debug\net5.0\DiceGame.dll
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\OOPIntro\DiceGame\DiceGame\bin\Debug\net5.0\ref\DiceGame.dll
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\OOPIntro\DiceGame\DiceGame\bin\Debug\net5.0\DiceGame.pdb
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\OOPIntro\DiceGame\DiceGame\obj\Debug\net5.0\DiceGame.csproj.AssemblyReference.cache
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\OOPIntro\DiceGame\DiceGame\obj\Debug\net5.0\DiceGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\OOPIntro\DiceGame\DiceGame\obj\Debug\net5.0\DiceGame.AssemblyInfoInputs.cache
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\OOPIntro\DiceGame\DiceGame\obj\Debug\net5.0\DiceGame.AssemblyInfo.cs
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\OOPIntro\DiceGame\DiceGame\obj\Debug\net5.0\DiceGame.csproj.CoreCompileInputs.cache
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\OOPIntro\DiceGame\DiceGame\obj\Debug\net5.0\DiceGame.dll
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\OOPIntro\DiceGame\DiceGame\obj\Debug\net5.0\ref\DiceGame.dll
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\OOPIntro\DiceGame\DiceGame\obj\Debug\net5.0\DiceGame.pdb
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\OOPIntro\DiceGame\DiceGame\obj\Debug\net5.0\DiceGame.genruntimeconfig.cache
