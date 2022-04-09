@@ -1,0 +1,16 @@
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\OOPIntro\Constructor\Constructor\bin\Debug\net5.0\Constructor.exe
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\OOPIntro\Constructor\Constructor\bin\Debug\net5.0\Constructor.deps.json
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\OOPIntro\Constructor\Constructor\bin\Debug\net5.0\Constructor.runtimeconfig.json
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\OOPIntro\Constructor\Constructor\bin\Debug\net5.0\Constructor.runtimeconfig.dev.json
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\OOPIntro\Constructor\Constructor\bin\Debug\net5.0\Constructor.dll
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\OOPIntro\Constructor\Constructor\bin\Debug\net5.0\ref\Constructor.dll
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\OOPIntro\Constructor\Constructor\bin\Debug\net5.0\Constructor.pdb
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\OOPIntro\Constructor\Constructor\obj\Debug\net5.0\Constructor.csproj.AssemblyReference.cache
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\OOPIntro\Constructor\Constructor\obj\Debug\net5.0\Constructor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\OOPIntro\Constructor\Constructor\obj\Debug\net5.0\Constructor.AssemblyInfoInputs.cache
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\OOPIntro\Constructor\Constructor\obj\Debug\net5.0\Constructor.AssemblyInfo.cs
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\OOPIntro\Constructor\Constructor\obj\Debug\net5.0\Constructor.csproj.CoreCompileInputs.cache
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\OOPIntro\Constructor\Constructor\obj\Debug\net5.0\Constructor.dll
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\OOPIntro\Constructor\Constructor\obj\Debug\net5.0\ref\Constructor.dll
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\OOPIntro\Constructor\Constructor\obj\Debug\net5.0\Constructor.pdb
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\OOPIntro\Constructor\Constructor\obj\Debug\net5.0\Constructor.genruntimeconfig.cache
