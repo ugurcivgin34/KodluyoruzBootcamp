@@ -1,0 +1,16 @@
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\IntroductionToCsharp\usingLinq\usingLinq\obj\Debug\net5.0\usingLinq.csproj.AssemblyReference.cache
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\IntroductionToCsharp\usingLinq\usingLinq\obj\Debug\net5.0\usingLinq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\IntroductionToCsharp\usingLinq\usingLinq\obj\Debug\net5.0\usingLinq.AssemblyInfoInputs.cache
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\IntroductionToCsharp\usingLinq\usingLinq\obj\Debug\net5.0\usingLinq.AssemblyInfo.cs
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\IntroductionToCsharp\usingLinq\usingLinq\obj\Debug\net5.0\usingLinq.csproj.CoreCompileInputs.cache
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\IntroductionToCsharp\usingLinq\usingLinq\bin\Debug\net5.0\usingLinq.exe
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\IntroductionToCsharp\usingLinq\usingLinq\bin\Debug\net5.0\usingLinq.deps.json
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\IntroductionToCsharp\usingLinq\usingLinq\bin\Debug\net5.0\usingLinq.runtimeconfig.json
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\IntroductionToCsharp\usingLinq\usingLinq\bin\Debug\net5.0\usingLinq.runtimeconfig.dev.json
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\IntroductionToCsharp\usingLinq\usingLinq\bin\Debug\net5.0\usingLinq.dll
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\IntroductionToCsharp\usingLinq\usingLinq\bin\Debug\net5.0\ref\usingLinq.dll
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\IntroductionToCsharp\usingLinq\usingLinq\bin\Debug\net5.0\usingLinq.pdb
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\IntroductionToCsharp\usingLinq\usingLinq\obj\Debug\net5.0\usingLinq.dll
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\IntroductionToCsharp\usingLinq\usingLinq\obj\Debug\net5.0\ref\usingLinq.dll
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\IntroductionToCsharp\usingLinq\usingLinq\obj\Debug\net5.0\usingLinq.pdb
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\IntroductionToCsharp\usingLinq\usingLinq\obj\Debug\net5.0\usingLinq.genruntimeconfig.cache

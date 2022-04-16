@@ -12,7 +12,7 @@ namespace usingDelegate
         //public delegate bool Criteria(int item);
 
 
-        public static List<int> Filter(List<int> values, Func<int, bool> criteria)
+        public static List<int> Filter(List<int> values, Func<int, bool> criteria) //int al bool döndür
         {
             List<int> filtered = new List<int>();
             foreach (var item in values)

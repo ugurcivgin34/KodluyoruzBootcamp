@@ -27,6 +27,13 @@ namespace usingDelegate
 
             filtered2.ForEach(p => Console.WriteLine(p));
 
+            //Çoklu ise
+            filtered2.ForEach(p =>
+            {
+                Console.WriteLine(p);
+            });
+
+
             filtered2.Where(x => x % 2 == 0);
         }
 
