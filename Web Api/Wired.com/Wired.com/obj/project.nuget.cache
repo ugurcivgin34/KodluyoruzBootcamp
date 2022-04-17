@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UQZt7GxCzeX6A8nAdTQKLZ0VvNsI/1mbnEnysLzHoxZQBHZ0+I78h4HGgo3XelAvc/+pBj1fLhx6/8Q4n6nYgA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ugur\\source\\repos\\KodluyoruzBootcamp\\Web Api\\Wired.com\\Wired.com\\Wired.com.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ugur\\.nuget\\packages\\htmlagilitypack\\1.11.42\\htmlagilitypack.1.11.42.nupkg.sha512"
+  ],
+  "logs": []
+}
