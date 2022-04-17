@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "02bgUcgqAHu0wS+gW0NwW5TBdde2yeuJxK5Ha2AJvJQgjCISawS2rtySd3UbBC7Ue/y705rAymEk0FykK320wg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ugur\\source\\repos\\KodluyoruzBootcamp\\Web Api\\APIClient\\APIClient\\APIClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ugur\\.nuget\\packages\\restsharp\\107.3.0\\restsharp.107.3.0.nupkg.sha512",
+    "C:\\Users\\ugur\\.nuget\\packages\\system.text.json\\5.0.0\\system.text.json.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

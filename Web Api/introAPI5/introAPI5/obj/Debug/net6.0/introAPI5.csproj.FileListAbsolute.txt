@@ -4,7 +4,6 @@ C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\introAPI5\introAPI5\bin\De
 C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\introAPI5\introAPI5\bin\Debug\net6.0\introAPI5.deps.json
 C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\introAPI5\introAPI5\bin\Debug\net6.0\introAPI5.runtimeconfig.json
 C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\introAPI5\introAPI5\bin\Debug\net6.0\introAPI5.dll
-C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\introAPI5\introAPI5\bin\Debug\net6.0\ref\introAPI5.dll
 C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\introAPI5\introAPI5\bin\Debug\net6.0\introAPI5.pdb
 C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\introAPI5\introAPI5\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\introAPI5\introAPI5\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
@@ -22,6 +21,7 @@ C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\introAPI5\introAPI5\obj\De
 C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\introAPI5\introAPI5\obj\Debug\net6.0\scopedcss\bundle\introAPI5.styles.css
 C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\introAPI5\introAPI5\obj\Debug\net6.0\introAPI5.csproj.CopyComplete
 C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\introAPI5\introAPI5\obj\Debug\net6.0\introAPI5.dll
-C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\introAPI5\introAPI5\obj\Debug\net6.0\ref\introAPI5.dll
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\introAPI5\introAPI5\obj\Debug\net6.0\refint\introAPI5.dll
 C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\introAPI5\introAPI5\obj\Debug\net6.0\introAPI5.pdb
 C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\introAPI5\introAPI5\obj\Debug\net6.0\introAPI5.genruntimeconfig.cache
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\introAPI5\introAPI5\obj\Debug\net6.0\ref\introAPI5.dll
