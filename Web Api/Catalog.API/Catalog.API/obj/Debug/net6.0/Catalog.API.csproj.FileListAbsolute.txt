@@ -31,3 +31,7 @@ C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\Catalog.API\Catalog.API\bi
 C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\Catalog.API\Catalog.API\bin\Debug\net6.0\Catalog.Business.pdb
 C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\Catalog.API\Catalog.API\bin\Debug\net6.0\Catalog.DataAccess.dll
 C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\Catalog.API\Catalog.API\bin\Debug\net6.0\Catalog.DataAccess.pdb
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\Catalog.API\Catalog.API\bin\Debug\net6.0\Catalog.DataTransferObjects.dll
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\Catalog.API\Catalog.API\bin\Debug\net6.0\Catalog.DataTransferObjects.pdb
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\Catalog.API\Catalog.API\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\Catalog.API\Catalog.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

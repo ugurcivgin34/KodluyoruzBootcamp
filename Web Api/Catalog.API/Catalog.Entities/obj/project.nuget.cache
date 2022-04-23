@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "6eQKjXf+ZegqRT9GuHZwl+/w6RetMhXmNeGzMG++OOxwIk1gTlqPYAtQUjnpMDi+/8Vsd+Em+ug+hfKYn6PvBA==",
+  "dgSpecHash": "a10yWTIAT/wul3whz5Mizv9qgGfr/4PVd3Xt8YAsDeiVIEyqX2nKhXJzYLqTOnzh0QAf9SU5YcbllVp2NG3LrA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ugur\\source\\repos\\KodluyoruzBootcamp\\Web Api\\Catalog.API\\Catalog.Entities\\Catalog.Entities.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ugur\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\ugur\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\ugur\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\ugur\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\ugur\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\ugur\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\ugur\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

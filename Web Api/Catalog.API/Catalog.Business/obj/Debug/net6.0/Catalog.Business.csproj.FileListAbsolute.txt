@@ -15,3 +15,5 @@ C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\Catalog.API\Catalog.Busine
 C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\Catalog.API\Catalog.Business\obj\Debug\net6.0\ref\Catalog.Business.dll
 C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\Catalog.API\Catalog.Business\bin\Debug\net6.0\Catalog.DataAccess.dll
 C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\Catalog.API\Catalog.Business\bin\Debug\net6.0\Catalog.DataAccess.pdb
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\Catalog.API\Catalog.Business\bin\Debug\net6.0\Catalog.DataTransferObjects.dll
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\Catalog.API\Catalog.Business\bin\Debug\net6.0\Catalog.DataTransferObjects.pdb
