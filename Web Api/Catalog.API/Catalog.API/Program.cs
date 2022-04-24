@@ -1,6 +1,8 @@
 using Catalog.Business;
 using Catalog.Business.Mapping;
+using Catalog.DataAccess.Data;
 using Catalog.DataAccess.Repositories;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,10 +15,14 @@ builder.Services.AddSwaggerGen();
 
 //IoC
 builder.Services.AddScoped<IProductService,ProductService>();
-builder.Services.AddScoped<IProductRepository,FakeProductRepository>();
+builder.Services.AddScoped<IProductRepository,EfProductRepository>();
 
 //AutoMapper
 builder.Services.AddAutoMapper(typeof(MapProfile));
+
+//catalogdbcontextin insteasýný almak için usesqlserver i kullanarak bbir option builder oluþturduk
+builder.Services.AddDbContext<CatalogDbContext>(opt=>opt.UseSqlServer(builder.Configuration.GetConnectionString("db")));
+//opt.UseInMemoryDatabase//Geçiçi bir yapý, veri oluþturur hafýzada.daha sonra veritabnaý ile kullnýlýcaksa taþýnýr
 
 
 var app = builder.Build();

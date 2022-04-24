@@ -13,3 +13,5 @@ C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\Catalog.API\Catalog.DataAc
 C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\Catalog.API\Catalog.DataAccess\obj\Debug\net6.0\refint\Catalog.DataAccess.dll
 C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\Catalog.API\Catalog.DataAccess\obj\Debug\net6.0\Catalog.DataAccess.pdb
 C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\Catalog.API\Catalog.DataAccess\obj\Debug\net6.0\ref\Catalog.DataAccess.dll
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\Catalog.API\Catalog.DataAccess\bin\Debug\net6.0\Catalog.DataAccess.runtimeconfig.json
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\Catalog.API\Catalog.DataAccess\obj\Debug\net6.0\Catalog.DataAccess.genruntimeconfig.cache

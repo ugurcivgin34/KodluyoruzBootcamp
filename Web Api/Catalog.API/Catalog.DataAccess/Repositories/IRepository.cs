@@ -11,7 +11,11 @@ namespace Catalog.DataAccess.Repositories
     {
         Task<IList<T>> GetAll();
         Task<T> GetById(int id);
+        Task Add(T entity);
+        Task Update(T entity);
+        Task Delete(int id);
+        Task<bool>IsExists(int id);
 
-
+        //Asenkron ile çalışscaksınız geri dönüşümsüz yani void yerine Task yazılabilir
     }
 }
