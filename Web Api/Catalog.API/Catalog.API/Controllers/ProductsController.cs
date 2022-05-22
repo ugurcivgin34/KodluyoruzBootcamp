@@ -1,4 +1,4 @@
-﻿using Catalog.API.Filters;
+﻿ using Catalog.API.Filters;
 using Catalog.Business;
 using Catalog.DataTransferObjects.Requests;
 using Catalog.DataTransferObjects.Responses;
@@ -29,6 +29,7 @@ namespace Catalog.API.Controllers
         }
 
         [HttpGet("{id}")]
+        [IsExists]
         public async Task<IActionResult> GetProductById(int id)
         {
             ProductDisplayResponse product = await service.GetProduct(id);
@@ -72,11 +73,16 @@ namespace Catalog.API.Controllers
         }
 
         [HttpDelete("{id}")]
-        [IsExists]
+        [IsExists(Order =2)]
+        [CustomException(Order =1)]
         public async Task<IActionResult> Delete(int id)
         {
-          
-                await service.DeleteProduct(id);
+            if (id<0)
+            {
+                throw new ArgumentException("id değeri negatif olamaz!");
+
+            }
+            await service.DeleteProduct(id);
                 return Ok();
            
 

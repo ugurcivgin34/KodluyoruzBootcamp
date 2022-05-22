@@ -1,11 +1,37 @@
 {
   "Version": 1,
-  "Hash": "dsw+z5JRLfbvfnm4YN5rLHYjFUjigEjIU18xRsIfEX0=",
+  "Hash": "lr4YVE0JQ+9Yy2F+wP/S5kzB7cLxhQoNCoepYxr9YiQ=",
   "Source": "Catalog.API",
   "BasePath": "_content/Catalog.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Catalog.API\\wwwroot",
+      "Source": "Catalog.API",
+      "ContentRoot": "C:\\Users\\ugur\\source\\repos\\KodluyoruzBootcamp\\Web Api\\Catalog.API\\Catalog.API\\wwwroot\\",
+      "BasePath": "_content/Catalog.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\ugur\\source\\repos\\KodluyoruzBootcamp\\Web Api\\Catalog.API\\Catalog.API\\wwwroot\\error.html",
+      "SourceId": "Catalog.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ugur\\source\\repos\\KodluyoruzBootcamp\\Web Api\\Catalog.API\\Catalog.API\\wwwroot\\",
+      "BasePath": "_content/Catalog.API",
+      "RelativePath": "error.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\error.html"
+    }
+  ]
 }
