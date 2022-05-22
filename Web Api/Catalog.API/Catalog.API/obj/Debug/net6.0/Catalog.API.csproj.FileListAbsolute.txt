@@ -70,3 +70,4 @@ C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\Catalog.API\Catalog.API\bi
 C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\Catalog.API\Catalog.API\bin\Debug\net6.0\Humanizer.dll
 C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\Catalog.API\Catalog.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\Catalog.API\Catalog.API\bin\Debug\net6.0\Catalog.API.staticwebassets.runtime.json
+C:\Users\ugur\source\repos\KodluyoruzBootcamp\Web Api\Catalog.API\Catalog.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

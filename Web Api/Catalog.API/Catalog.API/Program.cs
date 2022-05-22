@@ -1,11 +1,15 @@
 using Catalog.API.Extensions;
 using Catalog.API.Middlewares;
+using Catalog.API.Security;
 using Catalog.Business;
 using Catalog.Business.Mapping;
 using Catalog.DataAccess.Data;
 using Catalog.DataAccess.Repositories;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +23,8 @@ builder.Services.AddSwaggerGen();
 //IoC
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IProductRepository, EfProductRepository>();
+builder.Services.AddScoped<IUserService,UserService>();
+builder.Services.AddScoped<IUserRepository, FakeUserRepository>();
 
 //AutoMapper
 builder.Services.AddAutoMapper(typeof(MapProfile));
@@ -32,9 +38,26 @@ builder.Services.AddCors(opt => opt.AddPolicy("allow", cpb =>
     cpb.AllowAnyHeader();
     cpb.AllowAnyMethod();
     //cpb.WithMethods();//Belli adreslerden gelen istekler api ye eriþimi olsun istiyorsak
-}));
 
-builder.Services.AddAuthentication("Basic").AddScheme<>
+}));
+builder.Services.AddMemoryCache();
+
+var key = new SymmetricSecurityKey( Encoding.UTF8.GetBytes(builder.Configuration.GetSection("token:secret").Value));
+//builder.Services.AddAuthentication("Basic").AddScheme<BasicAuthenticationOptions, BasicAuthenticationHandler>("Basic",null);
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                                .AddJwtBearer(options =>
+                                {
+                                    options.SaveToken = true; //eðer authorization baþarýlý olursa ben bu üretilen token i sunucuda autencation property içinde saklarým
+                                    options.TokenValidationParameters = new TokenValidationParameters
+                                    {
+                                        ValidateIssuer = true ,
+                                        ValidateAudience=true,
+                                        ValidateActor=true,
+                                        ValidIssuer = "u.civgin@gmail.com",
+                                        ValidAudience ="u.civgin@gmail.com",
+                                        IssuerSigningKey=key
+                                    };
+                                });
 
 
 var app = builder.Build();
@@ -102,7 +125,7 @@ app.UseHttpsRedirection(); //gelene requestleri https adresine yönlendirecek
 app.UseStaticFiles();
 app.UseCors("allow");
 
-app.UseAuthentication();//Kimlik Doðrulama
+app.UseAuthentication();//Kimlik Kontrolü
 app.UseAuthorization(); //Yetki kontrolü
 
 app.MapControllers();
